@@ -1,0 +1,25 @@
+env:
+  grid_size: 10
+  obstacles: 2
+  agents: 2
+  obs_radius: 2
+  reward_type: 1
+  seed: 26
+
+ql:
+  epsilon: 0.4
+  decay: 0.999
+  alpha: 0.6
+  gamma: 0.6
+  episodes: 500
+
+rnd:
+  grid_render: True
+  grid_obs_render: True
+  obs_render: False
+  grayscale: False
+  sleep: 0
+
+plt:
+  regression_type: null  # null/lin/quad/exp
+  
